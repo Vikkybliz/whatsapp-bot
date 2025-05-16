@@ -1,0 +1,29 @@
+2025/05/16-23:47:36.992 6330 Reusing MANIFEST C:\Users\USER\whatsapp-bot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/05/16-23:47:36.993 6330 Recovering log #883
+2025/05/16-23:47:37.254 6330 Reusing old log C:\Users\USER\whatsapp-bot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000883.log 
+2025/05/16-23:47:39.468 5158 Level-0 table #896: started
+2025/05/16-23:47:39.508 5158 Level-0 table #896: 762996 bytes OK
+2025/05/16-23:47:39.510 5158 Delete type=0 #883
+2025/05/16-23:47:39.511 5158 Manual compaction at level-0 from '\x00/\x00\x00\x00' @ 72057594037927935 : 1 .. '\x000\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/05/16-23:47:43.701 5158 Compacting 1@1 + 9@2 files
+2025/05/16-23:47:44.187 5158 Generated table #897@1: 85460 keys, 2235763 bytes
+2025/05/16-23:47:44.481 5158 Generated table #898@1: 72654 keys, 2255687 bytes
+2025/05/16-23:47:44.667 5158 Generated table #899@1: 41873 keys, 2198375 bytes
+2025/05/16-23:47:44.959 5158 Generated table #900@1: 53958 keys, 2220703 bytes
+2025/05/16-23:47:45.050 5158 Generated table #901@1: 5005 keys, 2157632 bytes
+2025/05/16-23:47:45.239 5158 Generated table #902@1: 23068 keys, 2215732 bytes
+2025/05/16-23:47:45.567 5158 Generated table #903@1: 43092 keys, 2265574 bytes
+2025/05/16-23:47:45.760 5158 Generated table #904@1: 36590 keys, 2196063 bytes
+2025/05/16-23:47:45.914 5158 Generated table #905@1: 40338 keys, 1749658 bytes
+2025/05/16-23:47:45.914 5158 Compacted 1@1 + 9@2 files => 19495187 bytes
+2025/05/16-23:47:45.915 5158 compacted to: files[ 0 0 9 0 0 0 0 ]
+2025/05/16-23:47:45.916 5158 Delete type=2 #885
+2025/05/16-23:47:45.916 5158 Delete type=2 #886
+2025/05/16-23:47:45.916 5158 Delete type=2 #887
+2025/05/16-23:47:45.916 5158 Delete type=2 #888
+2025/05/16-23:47:45.916 5158 Delete type=2 #889
+2025/05/16-23:47:45.916 5158 Delete type=2 #890
+2025/05/16-23:47:45.916 5158 Delete type=2 #891
+2025/05/16-23:47:45.916 5158 Delete type=2 #892
+2025/05/16-23:47:45.916 5158 Delete type=2 #893
+2025/05/16-23:47:45.916 5158 Delete type=2 #896
