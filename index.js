@@ -47,19 +47,26 @@ const goodNightMessages = [
 ];
 
 // Every day at 8 AM
-cron.schedule('0 8 * * *', async () => {
+cron.schedule('0 7 * * *', async () => {
     await sendAIMessage(`Write a cute good morning message for my girlfriend named ${memory.name || 'baby'}.`, 'morning');
   });
   
   // Every day at 2 AM
-  cron.schedule('0 2 * * *', async () => {
+  cron.schedule('0 1 * * *', async () => {
     await sendAIMessage(`Write a romantic good night message for my girlfriend named ${memory.name || 'baby'}.`, 'night');
   });
 
 // // Send memes at 9am, 12pm, 3pm, 6pm, 9pm
-cron.schedule('0 9,12,15,18,21 * * *', () => {
-    sendRandomMeme(girlfriendNumber)
+client.on('ready', () => {
+  console.log('💌 Romantic bot is ready!');
+
+  // ✅ Now it's safe to run any cron that uses client.sendMessage
+  cron.schedule('0 8,11,14,17,20 * * *', () => {
+    console.log('⏰ Scheduled meme time!');
+    sendRandomMeme(girlfriendNumber);
   });
+});
+
   
   
 
