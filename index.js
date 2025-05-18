@@ -8,7 +8,11 @@ const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000;
 
-app.get('/health', (req, res) => res.send('Bot is running'));
+app.get('/health', (req, res) => {
+  const isReady = client.info?.wid?.user ? true : false;
+  res.json({ status: isReady ? 'authenticated' : 'not authenticated' });
+});
+
 
 app.listen(port, () => console.log(`Health check running on port ${port}`));
 
