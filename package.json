@@ -11,12 +11,19 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@supabase/supabase-js": "^2.49.5",
+    "@whiskeysockets/baileys": "^6.7.17",
     "axios": "^1.9.0",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
+    "firebase": "^11.7.3",
+    "firebase-admin": "^13.4.0",
+    "mongoose": "^8.15.0",
     "node-cron": "^4.0.5",
     "openai": "^4.99.0",
     "qrcode-terminal": "^0.12.0",
-    "whatsapp-web.js": "^1.28.0"
+    "whatsapp-web.js": "^1.28.0",
+    "wwebjs-firebase-storage": "^1.0.3",
+    "wwebjs-mongo": "^1.1.0"
   }
 }
