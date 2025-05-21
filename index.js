@@ -129,15 +129,15 @@ sock.ev.on('creds.update', async () => {
 function scheduleTasks(sock) {
   const send = (text) => sock.sendMessage(girlfriendNumber, { text });
 
-  cron.schedule('0 8 * * *', () =>
+  cron.schedule('0 7 * * *', () =>
     sendLoveMessage(`Write a cute good morning message for my girlfriend named ${memory.name}`, send)
   );
 
-  cron.schedule('0 2 * * *', () =>
+  cron.schedule('0 1 * * *', () =>
     sendLoveMessage(`Write a romantic good night message for my girlfriend named ${memory.name}`, send)
   );
 
-  cron.schedule('0 9,12,15,18,21 * * *', () =>
+  cron.schedule('0 8,11,12,17,20 * * *', () =>
     sendRandomMeme(sock)
   );
 
